@@ -37,7 +37,7 @@ let alienImg;
 let alienRows = 2;
 let alienColumns = 3;
 let alienCount = 0; //number of aliens to defeat
-let alienVelocity = 1;
+let alienVelocity = 2;
 
 // bullets
 let bulletArray = [];
@@ -45,7 +45,7 @@ let bulletVelocity = -10;
 let bulletImg;
 
 let alienBulletArray = [];
-let alienBulletVelocity = 1;
+let alienBulletVelocity = 5;
 
 let score = 0;
 
@@ -92,7 +92,7 @@ window.onload = function(){
     document.addEventListener("keydown", moveShip);
     document.addEventListener("keyup", shootBullet);
 
-    setInterval(alienShootBullet, 2000);
+    setInterval(alienShootBullet, 1000);
         
     
 }
