@@ -92,7 +92,7 @@ window.onload = function(){
     document.addEventListener("keydown", moveShip);
     document.addEventListener("keyup", shootBullet);
 
-    setInterval(alienShootBullet, 1000);
+    setInterval(alienShootBullet, 2000);
         
     
 }
